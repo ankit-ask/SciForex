@@ -1,0 +1,102 @@
+
+ul,label{
+	margin:10;
+	padding:10;
+
+}
+input[type="submit"],.agileits_copyright p a,.agile_quick_search ul.agileinfo_social_icons li a,.agile_quick_search1 ul.agileits_w3layouts_text li a{
+	transition:.5s ease-in;
+	-webkit-transition:.5s ease-in;
+	-moz-transition:.5s ease-in;
+	-o-transition:.5s ease-in;
+	-ms-transition:.5s ease-in;
+}
+#slideshow {
+width: 100%;
+margin: 10%
+background-color: #eee;
+border: 1px solid #ddd;}
+
+#slideshow ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+height: 1%; /* IE fix */}
+
+#slideshow ul:after {
+content: ".";
+clear: both;
+display: block;
+height: 0;
+visibility: hidden;}            
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > SLIDES
+/* ---------------------------------------------------- */
+#slideshow .slides {
+    background-color: #fff !important;
+overflow: hidden;
+width: 100%;}
+
+#slideshow .slides ul {
+    background-color: #fff !important;
+width: 100% !important;}
+
+#slideshow .slides li {
+    background-color: #fff !important;
+width: 100% !important;
+float: left;
+padding: 20px;}
+
+#slideshow .slides h2 {
+    background-color: #E3F2FD !important;
+   
+    display: inline-block;
+margin-top: 0;}
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > NAVIGATION
+/* ---------------------------------------------------- */
+#slideshow .slides-nav {
+background-color: #fff !important;
+border-top: 2px solid #ccc;}
+
+#slideshow .slides-nav li {
+    background-color: #fff !important;
+float: left;}
+
+#slideshow .slides-nav li a {
+    background-color: #3DD28D !important;
+    color: #000 !important;
+display: block;
+padding: 15px 20px;
+outline: none;}
+
+.js #slideshow .slides-nav li.on,
+.js #slideshow .slides-nav li.on a {
+background-color: #eee;}
+
+.js #slideshow .slides-nav li.on a {
+    background-color: #fff !important;
+position: relative;
+top: -4px;}
+
+.live-container{
+    width: 100%!important;
+}
+
+
+
+.outer-container {
+    font-family: "Roboto";
+    font-size: 1.6rem;
+}
+
+.outer-container {
+    padding:60px;
+}
+
+
+.step-content {
+    padding:40px 0;
+}
